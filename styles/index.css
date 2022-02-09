@@ -1,5 +1,5 @@
 body{
-    max-width: 1024px;
+    max-width: 1000px;
     margin: auto;
     box-sizing: border-box;
     display: grid;
@@ -11,7 +11,7 @@ article{
     display: grid;
     grid-template-columns:repeat(14,7%) ;
     grid-template-rows: repeat(10, 10%);
-    width: 40vw;
+    width: 31vw;
     height:90vh;
     border-radius: 2%;
     background-color:rgba(255, 255, 255,1);
@@ -26,6 +26,7 @@ article{
 
 h1{
     grid-column: 5/12;
+    font-size: 1.2em;
     text-align: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
@@ -34,8 +35,8 @@ h1{
     object-fit:cover;
     grid-column:8/14 ;
     grid-row:2/6 ;
-    width:17vw;
-    height:40vh;
+    width:14vw;
+    height:31vh;
     background-color:rgba(0, 0, 0,1);
     border-radius: 8px;
     z-index: 999;
@@ -49,19 +50,20 @@ h1{
     flex-direction: column;
     justify-content: end;
     background-color: rgba(49, 27, 146, 1);
-    width:28vw;
-    height: 45vh;
+    width:22vw;
+    height: 37vh;
     border-radius: 1em;
    
 }
 .svg{
     grid-column: 3/4;
     /* grid-row: ; */
-    width: 2vw;
+    width: 1.5vw;
     z-index: 999;
 
 }
 h2{
+    font-size: 1.2em;
     margin: 0;
     padding-left:.8em;
     color: white;
@@ -69,20 +71,26 @@ h2{
 .sp p{
     
     padding-left: .8em;
-    font-size: 1.5em;
+    font-size: 1em;
     color: white;
 }
 .interests{
     grid-column:2/14 ;
-    grid-row: 8/10;
+    grid-row: 7/10;
 }
 .interests{
-    font-size: 1.2em;
+    font-size: 1.em;
+    margin: 1em;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
+
+li{
+    padding: .1em;
+}
+
 .logo{
-    width: 9em;
-    height: 4em;
+    width: 6em;
+    height: 1.5em;
 }
 .log{
     grid-column:11/14 ;
