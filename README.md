@@ -11,11 +11,17 @@ Na het eerste semester hebben we veel geleerd over HTML en CSS. Tijdens semester
 
 
 ## Kenmerken
-*🔮 Kenmerken
-*📙 HTML
-*📘 CSS
+
+*🎆Kenmerken
+
+* 🎪HTML
+
+* 🎨CSS
+
 *🚀 JavaScript
+
 *💤 REST API
+
 
 ## Installatie
 
