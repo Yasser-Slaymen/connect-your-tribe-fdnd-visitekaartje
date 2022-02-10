@@ -21,9 +21,9 @@ Na het eerste semester hebben we veel geleerd over HTML en CSS. Tijdens semester
 
 * 🎨CSS
 
-*🚀 JavaScript
+* 🚀 JavaScript
 
-*💤 REST API
+* 💤 REST API
 
 
 ## Installatie
