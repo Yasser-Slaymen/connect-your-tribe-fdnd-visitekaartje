@@ -14,6 +14,7 @@ async function get(){
 
 function printData(data){
   
-  h1.innerHTML=data.data[2].name + data.data[2].surname
+  h1.innerHTML= data.data[2].name + data.data[2].surname
+
 
 }
