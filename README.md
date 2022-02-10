@@ -24,6 +24,8 @@ Na het eerste semester hebben we veel geleerd over HTML en CSS. Tijdens semester
 
 
 ## Installatie
+#HTTPS:
+https://github.com/Yasser-Slaymen/connect-your-tribe-fdnd-visitekaartje.git
 
 ## Gebruik
 
