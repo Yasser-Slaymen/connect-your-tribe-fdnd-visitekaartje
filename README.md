@@ -1,7 +1,10 @@
-> _Fork_ deze leertaak en ga aan de slag. Onderstaande outline ga je gedurende deze taak in jouw eigen GitHub omgeving uitwerken. De instructie vind je in: [docs/INSTRUCTIONS.md](docs/INSTRUCTIONS.md)
+
 
 # connect-your-tribe-fdnd-visitekaartje
  📸 
+ 
+ ![Screenshot (209)](https://user-images.githubusercontent.com/90189815/153504159-a46bbf52-483a-4d33-9d4a-72a87b69e51d.png)
+
  
 
   * 🌐
