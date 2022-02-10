@@ -9,8 +9,8 @@ body{
 }
 article{
     display: grid;
-    grid-template-columns:repeat(14,7%) ;
-    grid-template-rows: repeat(10, 10%);
+    grid-template-columns:repeat(10,10%);
+    grid-template-rows: repeat(10,10%);
     width: 31vw;
     height:90vh;
     border-radius: 2%;
@@ -25,18 +25,19 @@ article{
 }
 
 h1{
-    grid-column: 5/12;
+    grid-column:4/8;
     font-size: 1.2em;
     text-align: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .img{
-    object-fit:cover;
-    grid-column:8/14 ;
+    
+    grid-column:6/8 ;
     grid-row:2/6 ;
     width:14vw;
     height:31vh;
+    object-fit:cover;
     background-color:rgba(0, 0, 0,1);
     border-radius: 8px;
     z-index: 999;
@@ -44,8 +45,9 @@ h1{
     
 }
 .sp{
-    grid-column: 2/10;
-    grid-row: 3/8;
+    
+    grid-column:2/7;
+    grid-row:3/8 ;
     display: flex;
     flex-direction: column;
     justify-content: end;
@@ -56,7 +58,7 @@ h1{
    
 }
 .svg{
-    grid-column: 3/4;
+    grid-column:3/4 ;
     /* grid-row: ; */
     width: 1.5vw;
     z-index: 999;
@@ -75,8 +77,8 @@ h2{
     color: white;
 }
 .interests{
-    grid-column:2/14 ;
-    grid-row: 7/10;
+    grid-column:1/7 ;
+    grid-row:7/10 ;
 }
 .interests{
     font-size: 1.em;
@@ -93,8 +95,8 @@ li{
     height: 1.5em;
 }
 .log{
-    grid-column:11/14 ;
-    grid-row: 10/11;
+    grid-column:8/11 ;
+    grid-row:10/11 ;
 
 }
 @media (max-width:40em) {
@@ -120,6 +122,7 @@ li{
     .svg{
         width: 6vw;
     }
+    .interests{grid-row: 8/11;}
     .logo{
         width: 6em;
         height: 5em;
