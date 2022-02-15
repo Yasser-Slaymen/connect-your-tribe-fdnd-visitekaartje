@@ -3,10 +3,18 @@ const h1 =document.querySelector('h1')
 get()
 async function get(){
 
+  try{
     const response= await fetch(api)
     const data = await response.json()
     printData(data)
   console.log(data.data)
+  
+
+ }catch(e){
+   
+   console.log("Error:",e.message)
+   
+ }
     
 
 }
