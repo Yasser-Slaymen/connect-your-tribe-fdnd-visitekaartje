@@ -6,8 +6,10 @@ async function get(){
   try{
     const response= await fetch(api)
     const data = await response.json()
-    printData(data)
-  console.log(data.data)
+     const filter = data.data.filter(student=> student.name.startsWith('D') )
+    // printData(data)
+    printData(filter)
+  // console.log(filter)
   
 
  }catch(e){
@@ -19,9 +21,17 @@ async function get(){
 
 }
 
-function printData(data){
-  
-  h1.innerHTML= data.data[2].name + ' ' + data.data[2].surname
+function printData(x){
+  // console.log(x)
+  h1.innerHTML= x[3].name
 
 
-}
+ }
+
+
+// function printData(data){
+//   console.log(data)
+//   h1.innerHTML= data.data[2].name + ' ' + data.data[2].surname
+
+
+// }
