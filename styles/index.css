@@ -6,6 +6,7 @@ body{
     place-content: center;
     background-color: rgba(232, 245, 233, 1);
     font-family: Georgia, 'Times New Roman', Times, serif;
+    
 }
 article{
     display: grid;
